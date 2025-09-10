@@ -16,7 +16,7 @@ spec:
                   cluster.open-cluster-management.io/placement: placement-hub-openshift
               requeueAfterSeconds: 180
           - git:
-              repoURL: https://github.com/redhat-ai-services/etx-agentic-ai.git
+              repoURL: https://github.com/sarabanderby/etx-agentic-ai.git
               revision: main
               directories:
                 - path: infra/tenants/*/base/sno
